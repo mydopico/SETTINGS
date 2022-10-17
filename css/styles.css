@@ -49,15 +49,14 @@ form {
 /* FONT COLOR */
 
 .square  {    
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     padding: 8px 20px;
     margin: 3px !important;   
     border: none;     
     outline: none;
     border-radius: 5px;   
-    box-shadow: 3px 3px 18px #888888;
-    overflow: auto;       
+    box-shadow: 3px 3px 18px #888888;        
 }
   
   .whiteB {
@@ -186,16 +185,19 @@ form {
 }
 
 
-@media  screen and (max-width: 780px) {
+@media  screen and (max-width: 600px) {
     .settings-body {
         width: 100%;    
         margin: 4px;    
     }
 
     #fontColor {
-        width: 360px;
+        display: grid;
+        grid-template-columns:  50px 50px 50px 50px;
+        gap: 5px;        
+        justify-content: center;
     }
-
+  
     .container-head {
         flex-direction: column;
         align-items: flex-start;
