@@ -186,6 +186,10 @@ form {
 
 
 @media  screen and (max-width: 780px) {
+    .settings-body {
+        max-width: 400px;   
+    }
+
     .container-head {
         flex-direction: column;
         align-items: flex-start;
