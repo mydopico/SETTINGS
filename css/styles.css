@@ -16,7 +16,7 @@ body {
 }
 
 .settings-body {
-    max-width: 475px;   
+    max-width: 450px;   
 }
 
 /* NAVBAR */
@@ -189,17 +189,6 @@ form {
     .settings-body {
         width: 100%;    
         margin: 4px;    
-    }
-
-    .square  { 
-        width: 30px;
-        height: 30px;
-        padding: 0;
-        margin: 0;  
-        border: none;     
-        outline: none;
-        border-radius: 5px;   
-        box-shadow: 3px 3px 18px #888888;         
     }
 
     .container-head {
