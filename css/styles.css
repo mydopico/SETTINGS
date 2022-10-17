@@ -191,6 +191,10 @@ form {
         margin: 4px;    
     }
 
+    #fontColor {
+        width: 360px;
+    }
+
     .container-head {
         flex-direction: column;
         align-items: flex-start;
