@@ -191,16 +191,12 @@ form {
         margin: 4px;    
     }
 
-    .square  {    
-        width: 20px;
-        height: 20px;
+    /* .square  {    
+        width: 30px;
+        height: 30px;
         padding: 5px 10px;
-        margin: 2px !important;   
-        border: none;     
-        outline: none;
-        border-radius: 5px;   
-        box-shadow: 3px 3px 18px #888888;       
-    }
+        margin: 2px !important; 
+    } */
 
     .container-head {
         flex-direction: column;
