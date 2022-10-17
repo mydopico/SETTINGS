@@ -52,7 +52,7 @@ form {
     width: 30px;
     height: 30px;
     padding: 10px 20px;
-    margin: 5px !important;   
+    margin: 3px !important;   
     border: none;     
     outline: none;
     border-radius: 5px;   
@@ -187,7 +187,7 @@ form {
 
 @media  screen and (max-width: 780px) {
     .settings-body {
-        max-width: 450px;   
+        max-width: 440px;   
     }
 
     .container-head {
