@@ -187,8 +187,7 @@ form {
 
 @media  screen and (max-width: 780px) {
     .settings-body {
-        max-width: 440px;  
-        padding: 5px; 
+        width: 100%;        
     }
 
     .container-head {
