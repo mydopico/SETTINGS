@@ -191,12 +191,10 @@ form {
         margin: 4px;    
     }
 
-    /* .square  {    
-        width: 30px;
-        height: 30px;
-        padding: 5px 10px;
-        margin: 2px !important; 
-    } */
+    .square  { 
+        padding: 0;
+        margin: 0; 
+    }
 
     .container-head {
         flex-direction: column;
