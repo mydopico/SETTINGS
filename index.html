@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings Page</title>
+    <!-- Custom CSS   -->
+    <link rel="stylesheet" href="css\styles.css">	
+    <!-- Bootstrap 5   -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- fontawesome -->		
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />	
+    <!-- GOOGLE FONTS -->
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster+Two&family=Merriweather&family=Noto+Sans+Mono&family=Open+Sans&family=Poiret+One&display=swap" rel="stylesheet">
+     
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- NAV BAR -->
+     <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand px-3" href="#">
+            <strong><i class="fa-solid fa-mountain-sun"></i> CHALLENGES DAILY UI :: 007</strong>
+        </a>
+    </nav>
+   
+    <div class="container d-flex justify-content-center my-2">   
+    
+                  <div class="settings-body"> 
+                    
+                    <!-- ************** FORM ********** -->
+                      <form>
+                        <div class="settings-header p-2">
+                          <h5 class="text-center"><strong>SETTINGS</strong></h5>                     
+                        </div>
+                        <!-- ***************** TEXT COLOR *************************** -->     
+                       
+                          <h6 class="text-muted float-start">Font color</h6>
+                          <br>
+                          <div class="mx-3 my-4">  
+                            <a class="red square" onclick="changeColor()"></a>
+                            <a class="orange square" onclick="changeColor()"></a>
+                            <a class="yellow square" onclick="changeColor()"></a>
+                            <a class="green square" onclick="changeColor()"></a>
+                            <a class="blue square" onclick="changeColor()"></a>
+                            <a class="beige square" onclick="changeColor()"></a>
+                            <a class="grey square" onclick="changeColor()"></a>
+                            <a class="black square" onclick="changeColor()"></a>
+                                            
+                          </div>  <!-- end div -->
+
+                          <hr class="my-3">
+                          <!-- ***************** TEXT FONT *************************** -->     
+                          <h6 class="text-muted float-start">Font style</h6>
+                          <br>
+                          <div class="form-group">
+                            <label for="fontFamily"></label>
+                            <select class="form-control" id="fontFamily" onchange="changeFont(this);">
+                              <option selected>Choose font family...</option>
+                              <option class="serif">serif</option>
+                              <option class="sans-serif">sans-serif</option>
+                              <option class="display">display</option>
+                              <option class="handwriting">handwriting</option>
+                              <option class="monospace">monospace</option>
+                            </select>
+                          </div>
+                          
+                          <hr class="my-3">
+                          <!-- ********* FONT SIZE **********    -->                           
+                          <h6 class="text-muted">Font size</h6>         
+                          <header class="container-head">                                               
+                            <div class="slider-container">
+                                <p class="font-size-text">
+                                    <span id="pixels">32</span>
+                                    px                                    
+                                </p>
+                                <input id="slider"  type="range" min="8" max="64" value="32">
+                            </div>             
+                        </header>
+                
+                        <div class="item">
+                            <div class="row">
+                                <p id="sample">Almost before we knew it.</p>
+                            </div>                                         
+                        </div>
+
+                      </form>
+                  </div>
+               
+    </div>
+  
+ 
+                 
+                  
+      <script src="./script.js"></script> 
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+    
+</body>
+
+
+</html>
